@@ -10,12 +10,18 @@
 	</properties>
 
 	<dependencies>
-	<dependency>
-		<groupId>com.groupdocs</groupId>
-		<artifactId>groupdocs-comparison</artifactId>
-		<version>17.3.2</version>
-	</dependency>	
+		<dependency>
+			<groupId>com.groupdocs</groupId>
+			<artifactId>groupdocs-comparison</artifactId>
+			<version>18.6.1</version>
+		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>artifact.groupdocs.com</id>
+			<url>https://artifact.groupdocs.com/repo/</url>
+		</repository>
+	</repositories>
 	<build>
 		<resources>
 			<resource>
